@@ -1,0 +1,17 @@
+body {
+    font-family: Helvetica;
+    background: #ffd24d;
+}
+
+#intro {
+    text-align: center;
+    border-bottom: 2px black;
+}
+
+br {
+    line-height: 150%;
+}
+
+h1 {
+    text-shadow: 1px 1px 1px black;
+}
