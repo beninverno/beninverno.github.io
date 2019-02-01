@@ -8,8 +8,9 @@ function main() {
     var imgNum = Math.floor((Math.random() * imgArray.length));
     document.getElementById("header").src = titleArray[titleNum];
     document.getElementById("picture").src = imgArray[imgNum];
-    console.log(titleNum);
-    console.log(imgNum);
+    document.getElementById("music").onclick = function(){document.getElementById("megaflora").play();
+                                                        document.getElementById("music").style.display = "none";};
+
 }
 
 function gotosite() {
